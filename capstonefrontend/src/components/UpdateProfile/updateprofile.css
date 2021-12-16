@@ -1,0 +1,33 @@
+.ProfilePhoto{
+    height: 15vh;
+    width: auto;
+    size: comtain;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.RegistrationForm{
+    display: grid;
+    place-content: center;
+    margin-top: 0%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'header header'
+    ;
+    border-radius: 6px;
+
+}
+.Registerheader{
+    display: grid;
+    grid-area: header;
+    place-content: center;
+}
+.RegistrationForm div{
+    display: grid;
+    place-content: center;
+}
+
+.submitButton{
+    width: fit-content;
+}

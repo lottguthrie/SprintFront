@@ -1,0 +1,19 @@
+.WelcomeBody{
+    background-image:url(C:\Users\lottg\OneDrive\Desktop\Sprint-FrontEnd\DevCodeCampCapstone-FE-REACT\capstonefrontend\src\Photos\pexels-kat-wilcox-923681.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 60vh;
+    display: grid;
+    place-content: center;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WelcomeMessage:hover{
+    background-color: rgba(5, 31, 97, 0.35);
+}
+.WelcomeMessage{
+    color:antiquewhite;
+    text-align: center;
+}

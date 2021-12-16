@@ -1,0 +1,34 @@
+.SearchViewContainer{
+    background-color: rgb(255, 255, 255);
+    width: 70vw;
+    margin-right: auto;
+    margin-left: auto;
+}
+ .DailyReportSearch{
+     display: grid;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    max-width: 90vw;
+    min-height: minmax(180px, 1fr);
+    max-height: 70vh;
+    overflow-y: auto;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    row-gap: 5px;
+    height: fit-content;
+}
+.DailyReportSearchListing{
+    display: grid;
+    height: 20vh;
+    max-height: minmax(180px, auto);
+    min-height: minmax(180px, auto);
+    max-width: minmax(180px, auto);
+    min-width: minmax(180px, auto);
+    background-color: rgb(255, 255, 255);
+    color:rgb(35, 55, 71);
+    place-content: center ;
+    margin: 3px;
+}
+.DailyReportListingName{
+    display: grid;
+    place-content: center;
+}

@@ -1,0 +1,31 @@
+.RegisterContainer{
+    display: grid;
+    background-color: rgba(215, 215, 215, 0.582);
+    place-content: center;
+    height: 90vh;
+}
+.RegistrationForm{
+    display: grid;
+    background-color: white;
+    max-width: 1130px;
+    max-height: 90vh;
+    width: 50vw;
+    color: white;
+    background-color: rgb(60, 60, 60);
+    place-content: center;
+}
+
+
+.Registerheader{
+    border-bottom: solid;
+}
+
+
+.FormRow{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:solid;
+    border-color: white;
+    border-width: 2px;
+}

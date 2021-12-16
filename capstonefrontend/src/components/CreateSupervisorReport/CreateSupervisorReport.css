@@ -1,0 +1,15 @@
+.ListingForm{
+    display: grid;
+    place-content: center;
+    margin-top: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(73, 73, 73);
+    color:white;
+    border-radius: 8px;
+    width: 80vh;
+}
+
+.ReportGeneratorHeader h1{
+    border-bottom: solid;
+}

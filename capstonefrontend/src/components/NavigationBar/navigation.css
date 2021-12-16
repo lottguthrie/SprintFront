@@ -1,0 +1,20 @@
+.NavigationBody{
+    display: grid;
+    grid-template-columns: auto auto  auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    height: 3vh;
+    width: 100vw;
+    margin-bottom: 3px;
+}
+.NavigationBody div{
+    display: grid;
+    place-content: center;
+    height: 3vh;
+
+}
+
+.NavButton{
+    color: white;
+}

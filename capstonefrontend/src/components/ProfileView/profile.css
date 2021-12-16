@@ -1,0 +1,52 @@
+.ProfileContainer{
+    width: 80vw;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    place-content: center;
+    background-color: none;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    'img info'
+    'list list';
+}
+
+.ProfileImage{
+    display: grid;
+    grid-area: img;
+    background-color: white;
+
+}
+
+.ProfileImage img{
+    height: 80vh;
+    size: cover;
+}
+
+.ProfileInfo{
+    display: grid;
+    grid-area: info;
+    background-color: rgba(171, 171, 171, 0.16);
+    width: 100%;
+    place-content: center;
+}
+
+.ProfileListings{
+    display: grid;
+    grid-area: list;
+    background-color: none;
+}
+.ProfileInfo h1{
+    background-color: rgb(255, 255, 255);
+}
+.ProfileInfo p{
+    font-size: 1.2em;
+    
+}
+.ProfileInfo button{
+    width: 100%;
+}
+.ProfileInfo img{
+    width: 20vh;
+}
